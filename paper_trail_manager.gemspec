@@ -169,7 +169,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, ["~> 3.0"])
       s.add_runtime_dependency(%q<paper_trail>, ["~> 2.0"])
-      s.add_runtime_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
+      s.add_runtime_dependency(%q<will_paginate>, ["= 3.0.2"])
       s.add_development_dependency(%q<capybara>, [">= 0.4.0"])
       s.add_development_dependency(%q<factory_girl_rails>, ["~> 1.1.beta1"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
@@ -181,7 +181,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<rails>, ["~> 3.0"])
       s.add_dependency(%q<paper_trail>, ["~> 2.0"])
-      s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
+      s.add_dependency(%q<will_paginate>, ["= 3.0.2"])
       s.add_dependency(%q<capybara>, [">= 0.4.0"])
       s.add_dependency(%q<factory_girl_rails>, ["~> 1.1.beta1"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
@@ -194,7 +194,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<rails>, ["~> 3.0"])
     s.add_dependency(%q<paper_trail>, ["~> 2.0"])
-    s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
+    s.add_dependency(%q<will_paginate>, ["= 3.0.2"])
     s.add_dependency(%q<capybara>, [">= 0.4.0"])
     s.add_dependency(%q<factory_girl_rails>, ["~> 1.1.beta1"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
